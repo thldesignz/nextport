@@ -52,3 +52,12 @@
     object-position: center;
     object-fit: cover;
 }
+.fab{
+    font-size: 4rem;
+    color: #171459;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

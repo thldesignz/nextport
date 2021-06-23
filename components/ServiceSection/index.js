@@ -11,19 +11,7 @@ const ServiceSection = (props) => {
                 </div>
                 <div className="wpo-service-item">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="wpo-service-wrap">
-                                <div className="wpo-services-icon-wrap">
-                                    <div className="wpo-service-icon">
-                                        <i className="fi flaticon-idea"></i>
-                                    </div>
-                                </div>
-                                <div className="wpo-service-text">
-                                    <h2>Product  Design</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div className="col-lg-6">
                             <div className="wpo-service-wrap">
                                 <div className="wpo-services-icon-wrap">
@@ -32,8 +20,8 @@ const ServiceSection = (props) => {
                                     </div>
                                 </div>
                                 <div className="wpo-service-text">
-                                    <h2>Web  Design</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
+                                    <h2>Web  Development</h2>
+                                    <p>I can create and a design a beautiful UI/UX experience as well as excute and build the project. As well as help with SEO.</p>
                                 </div>
                             </div>
                         </div>
@@ -45,24 +33,12 @@ const ServiceSection = (props) => {
                                     </div>
                                 </div>
                                 <div className="wpo-service-text">
-                                    <h2>Visual Design</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
+                                    <h2>Graphic Design</h2>
+                                    <p>I can help with Your need as far as logos, branding, flyers, banners, promo. ect.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="wpo-service-wrap">
-                                <div className="wpo-services-icon-wrap">
-                                    <div className="wpo-service-icon-4">
-                                        <i className="fi flaticon-man"></i>
-                                    </div>
-                                </div>
-                                <div className="wpo-service-text">
-                                    <h2>Business Strategy</h2>
-                                    <p>consectetur adipiscing elit, eiusmod tempor incididunt labore.</p>
-                                </div>
-                            </div>
-                        </div>
+                     
                     </div>
                 </div>
             </div>

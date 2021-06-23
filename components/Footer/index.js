@@ -25,9 +25,9 @@ const Footer = (props) => {
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="wpo-footer-social">
                                 <ul>
-                                    <li><Link href="/"><a><i className="fa fa-facebook"></i></a></Link></li>
-                                    <li><Link href="/"><a><i className="fa fa-twitter" aria-hidden="true"></i></a></Link></li>
-                                    <li><Link href="/"><a><i className="fa fa-instagram" aria-hidden="true"></i></a></Link></li>
+                                    <li><Link href="https://www.instagram.com/thldesignz/"><a><i className="fa fa-instagram"></i></a></Link></li>
+                                    <li><Link href="http://www.twitter.com/flawlesss_jade"><a><i className="fa fa-twitter" aria-hidden="true"></i></a></Link></li>
+                                    <li><Link href="https://www.instagram.com/flawless_jadee/"><a><i className="fa fa-instagram" aria-hidden="true"></i></a></Link></li>
                                 </ul>
                             </div>
                         </div>

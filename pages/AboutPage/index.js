@@ -3,7 +3,7 @@ import Navbar5 from '../../components/Navbar5'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import ServiceSection from '../../components/ServiceSection'
 import MySkill from '../../components/MySkill'
-import Footer2 from '../../components/Footer2'
+import Footer2 from '../../components/Footer'
 import AboutArea3 from '../../components/aboutarea3'
 import Head from 'next/head'
 

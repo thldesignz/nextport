@@ -16,7 +16,7 @@ const AboutHome = (props) => {
                     <div className="col-lg-6 col-md-6">
                         <div className="wpo-about-text">
                             <h2>Creativity is nothing but a mind set free</h2>
-                            <p>My name is Jae. I am a web designer and developer. Design is my passion I love any and everything that has to do with design. I love to bring peoples ideas to life and create a beautiful experience. </p>
+                            <p>My name is Jae. I am a web designer and developer. Design is my passion I love any and everything that has to do with design. I love to bring peoples ideas to life and create a beautiful experience. I,m from Ohio I have an Aassociate's Degree in Graphic Design, with a specialization in Multimedia and web. </p>
                             <ul>
                                 <li>Shopify</li>
                                 <li>Laravel</li>

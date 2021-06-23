@@ -1,4 +1,6 @@
 import '../styles/font-awesome.min.css';
+import '../styles/css/fontawesome.min.css';
+import '../styles/css/brands.min.css';
 import '../styles/flaticon.css';
 import '../styles/themify-icons.css';
 import 'react-modal-video/scss/modal-video.scss';
@@ -12,6 +14,8 @@ import '../styles/globals.css'
 import '../styles/style.css'
 import '../styles/responsive.css'
 import '../styles/main.css'
+
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

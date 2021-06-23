@@ -16,13 +16,10 @@ const Header2 = (props) => {
                         <li><Link className="active" href="/" title="">Home</Link>
                            
                         </li>
-                        <li><Link href="/" title="">About</Link></li>
+                        <li><Link href="/AboutPage" title="">About</Link></li>
                         <li><Link  href="/">Portfolio</Link>
                           
-                        </li>
-                        <li><Link href="/">Pages</Link>
-                          
-                        </li>
+                        </li>               
                         <li><Link href="/" title="">Blog</Link>
                             
                         </li>
