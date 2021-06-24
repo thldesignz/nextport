@@ -8,7 +8,7 @@ import TestSlider from '../components/Testimonial'
 import ContactArea from '../components/ContactArea'
 import LatestBlog from '../components/LatestNews'
 import Footer from '../components/Footer'
-import Head from 'next/head'
+import Head from 'next/head';
 
 
 
@@ -16,7 +16,8 @@ const HomePage =() => {
     return(
         <Fragment>
             <Head>
-                <title>Home Page</title>
+                <title>Flawless Jae Designs</title>
+                
             </Head>
             <Navbar />
            <Hero1/>
