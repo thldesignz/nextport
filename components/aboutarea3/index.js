@@ -18,9 +18,9 @@ const AboutArea3 = (props) => {
                             <h2>Creativity is nothing but a mind set free</h2>
                             <p>My name is Jae. I am a web designer and developer. Design is my passion I love any and everything that has to do with design. I love to bring peoples ideas to life and create a beautiful experience. I,m from Ohio I have an Aassociate's Degree in Graphic Design, with a specialization in Multimedia and web.  </p>
                             <ul>
-                                <li>High Quality Service</li>
+                                {/* <li>High Quality Service</li>
                                 <li>Best Price in Marketplace.</li>
-                                <li>Unique Design and Development.</li>
+                                <li>Unique Design and Development.</li> */}
                             </ul>
                             {/* <Link href="/"><a className="theme-btn-s2">Download CV</a></Link> */}
                         </div>
