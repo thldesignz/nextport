@@ -9,15 +9,33 @@ import ContactArea from '../components/ContactArea'
 import LatestBlog from '../components/LatestNews'
 import Footer from '../components/Footer'
 import Head from 'next/head';
+import { useEffect } from 'react';
 
 
 
 const HomePage =() => {
+
+
+     
+                React.useEffect(() => {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+    
+                    gtag('config', 'G-MS13S8H0FC');
+    
+                    gtag();
+                })
+
     return(
         <Fragment>
             <Head>
                 <title>Flawless Jae Designs</title>
+
                 
+
+                
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS13S8H0FC"/>
             </Head>
             <Navbar />
            <Hero1/>

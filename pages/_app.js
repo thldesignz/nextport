@@ -14,6 +14,8 @@ import '../styles/globals.css'
 import '../styles/style.css'
 import '../styles/responsive.css'
 import '../styles/main.css'
+import ReactGA from 'react-ga';
+
 
 
 
