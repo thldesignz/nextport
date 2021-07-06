@@ -19,3 +19,4 @@ const BlogDetailsFullwidth =() => {
     )
 };
 export default BlogDetailsFullwidth;
+
