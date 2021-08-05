@@ -90,23 +90,23 @@ class Portfolio extends Component {
                                
                                 <div className={this.state.onWebDesign ? "grid active" : "grid" 
                                     && this.state.onPrintDesign ? "grid " : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid " : "grid"
+                                    && this.state.onWebApp ? "grid " : "grid"
+                                    && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
 
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='images/protfolio/portfolio-1.jpg' alt="" className="img img-responsive"/>
+                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/08/Screen-Shot-2021-08-05-at-12.12.07-PM.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Jamies Famous Burger</h2>
-                                            <span>Full-Stack . Web Development</span>
-                                            <Link href="/ProjectDetails"><a>View Work</a></Link>
+                                            <h2>Landing Page</h2>
+                                            <span>Web Design . Web Development</span>
+                                            <Link href="/ProjectDetails/RealLanding"><a>View Work</a></Link>
                                         </div>
                                     </div>  
                                 </div>
                                
-                                <div className={this.state.onWebDesign ? "grid active" : "grid" 
+                                {/* <div className={this.state.onWebDesign ? "grid active" : "grid" 
                                     && this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.onPhotography ? "grid active" : "grid"
@@ -122,8 +122,8 @@ class Portfolio extends Component {
                                             <Link href="/ProjectDetails"><a>View Work</a></Link>
                                         </div>
                                     </div>  
-                                </div>
-                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                </div> */}
+                                {/* <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
@@ -179,7 +179,7 @@ class Portfolio extends Component {
                                             <Link href="/ProjectDetails"><a>View Work</a></Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="protfolio-btn">
                                 <Link href="/ProjectDetails"><a className="theme-btn-s2">Load More</a></Link>

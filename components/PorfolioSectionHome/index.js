@@ -73,7 +73,7 @@ const PorfolioSectionHome = ( props ) => {
                                 </div>
                             </div>
                             <div className="protfolio-btn">
-                                <Link href="/"><a>See More Work</a></Link>
+                                <Link href="/PorfolioGrid"><a>See More Work</a></Link>
                             </div>
                         </div>
                     </div>
