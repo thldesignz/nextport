@@ -23,7 +23,7 @@ const ProjectSingle = ( props ) => {
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="wpo-project-details-text-3">
                                         <span>Project Date</span>
-                                        <h2>5 Aug, 2021</h2>
+                                        <h2>10 Aug, 2021</h2>
                                     </div>
                                 </div>
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
