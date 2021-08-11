@@ -9,7 +9,7 @@ class Portfolio extends Component {
         onWebDesign: false,
         onPrintDesign: false,
         onWebApp: false,
-        onPhotography: false,
+        onEmail: false,
         isOpen : false,
     }
 
@@ -21,7 +21,7 @@ class Portfolio extends Component {
                 onWebApp: true,
                 onPrintDesign: true,
                 onWebDesign: true,
-                onPhotography: true,
+                onEmail: true,
             });
         }
 
@@ -31,7 +31,7 @@ class Portfolio extends Component {
                 onWebDesign: true,
                 onPrintDesign: false,
                 onWebApp: false,
-                onPhotography: false,
+                onEmail: false,
                 isOpen: true,
             });
         }
@@ -42,7 +42,7 @@ class Portfolio extends Component {
                 onPrintDesign: true,
                 onWebDesign: false,
                 onWebApp: false,
-                onPhotography: false,
+                onEmail: false,
                 isOpen: true,
             });
         }
@@ -53,15 +53,15 @@ class Portfolio extends Component {
                 onWebApp: true,
                 onPrintDesign: false,
                 onWebDesign: false,
-                onPhotography: false,
+                onEmail: false,
                 isOpen: true,
             });
         }
 
-        const Photography = event => {
+        const Email = event => {
             event.preventDefault();
             this.setState({
-                onPhotography: true,
+                onEmail: true,
                 onWebApp: false,
                 onPrintDesign: false,
                 onWebDesign: false,
@@ -82,7 +82,7 @@ class Portfolio extends Component {
                                     <li><button data-filter=".Web-Design" onClick={webDesign}>Web Design</button></li>
                                     <li><button data-filter=".Print-Design" onClick={printDesign}>Print Design</button></li>
                                     <li><button data-filter=".Web-Application" onClick={webApp}>Web Application</button></li>               
-                                    <li><button data-filter=".Photography" onClick={Photography}>Photography</button></li> 
+                                    <li><button data-filter=".Email" onClick={Email}>Email</button></li> 
                                 </ul>
                             </div>
                             <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary ">
@@ -91,7 +91,7 @@ class Portfolio extends Component {
                                 <div className={this.state.onWebDesign ? "grid active" : "grid" 
                                     && this.state.onPrintDesign ? "grid " : "grid"
                                     && this.state.onWebApp ? "grid " : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
+                                    && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
 
                                     <div className="wpo-protfolio-single">
@@ -106,23 +106,23 @@ class Portfolio extends Component {
                                     </div>  
                                 </div>
                                
-                                {/* <div className={this.state.onWebDesign ? "grid active" : "grid" 
-                                    && this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
+                                <div className={this.state.onWebDesign ? "grid active" : "grid" 
+                                    && this.state.onPrintDesign ? "grid" : "grid"
+                                    && this.state.onWebApp ? "grid " : "grid"
+                                    && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
 
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='images/protfolio/img-6.jpg' alt="" className="img img-responsive"/>
+                                            <img src='images/imgg/fenty_pre2.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link href="/ProjectDetails"><a>View Work</a></Link>
+                                            <h2>Fenty Email</h2>
+                                            <span>Web Develeoper . Email</span>
+                                            <Link href="/ProjectDetails/Fentyp"><a>View Work</a></Link>
                                         </div>
                                     </div>  
-                                </div> */}
+                                </div>
                                 {/* <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
@@ -138,7 +138,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
+                                    && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
@@ -152,7 +152,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
+                                    && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
@@ -167,7 +167,7 @@ class Portfolio extends Component {
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
+                                    && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
