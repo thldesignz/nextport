@@ -91,7 +91,7 @@ class Portfolio extends Component {
                                 <div className={this.state.onWebDesign ? "grid active" : "grid" 
                                     && this.state.onPrintDesign ? "grid " : "grid"
                                     && this.state.onWebApp ? "grid " : "grid"
-                                    && this.state.onEmail ? "grid active" : "grid"
+                                    && this.state.onEmail ? "grid " : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
 
                                     <div className="wpo-protfolio-single">
@@ -106,9 +106,7 @@ class Portfolio extends Component {
                                     </div>  
                                 </div>
                                
-                                <div className={this.state.onWebDesign ? "grid active" : "grid" 
-                                    && this.state.onPrintDesign ? "grid" : "grid"
-                                    && this.state.onWebApp ? "grid " : "grid"
+                                <div className={this.state.onEmail ? "grid active" : "grid" 
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
 
@@ -117,27 +115,27 @@ class Portfolio extends Component {
                                             <img src='images/imgg/fenty_pre2.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Fenty Email</h2>
+                                            <h2>Promotional Email</h2>
                                             <span>Web Develeoper . Email</span>
                                             <Link href="/ProjectDetails/Fentyp"><a>View Work</a></Link>
                                         </div>
                                     </div>  
                                 </div>
-                                {/* <div className={this.state.onWebDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                    && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='images/protfolio/img-7.jpg' alt="" className="img img-responsive"/>
+                                            <img src='images/img/maka.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link href="/ProjectDetails"><a>View Work</a></Link>
+                                            <h2>Transactional  Email</h2>
+                                            <span>Email . Web Developer</span>
+                                            <Link href="/ProjectDetails/Makartt"><a>View Work</a></Link>
                                         </div>
                                     </div>
                                 </div>
-                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
+                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
@@ -150,8 +148,8 @@ class Portfolio extends Component {
                                             <Link href="/ProjectDetails"><a>View Work</a></Link>
                                         </div>
                                     </div>
-                                </div>
-                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
+                                </div> */}
+                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
@@ -164,8 +162,8 @@ class Portfolio extends Component {
                                             <Link href="/ProjectDetails"><a>View Work</a></Link>
                                         </div>
                                     </div>
-                                </div>
-                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
+                                </div> */}
+                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
