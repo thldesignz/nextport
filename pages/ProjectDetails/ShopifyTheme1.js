@@ -10,6 +10,7 @@ const ProjectDetails =() => {
         <Fragment>
             <Head>
                 <title>Shopify Theme 1</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS13S8H0FC"/>
             </Head>
             <Navbar5/>
             <Breadcrumbs pageTitle={'Shopify Theme 1'} pageSub={'Project Details'}/>

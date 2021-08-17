@@ -12,6 +12,7 @@ const AboutPage =() => {
         <Fragment>
             <Head>
                 <title>About Page</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS13S8H0FC"/>
             </Head>
             <Navbar5/>
             <Breadcrumbs pageTitle={'About Us'} pageSub={'About'}/>

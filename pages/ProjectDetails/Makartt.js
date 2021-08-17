@@ -10,6 +10,7 @@ const ProjectDetails =() => {
         <Fragment>
             <Head>
                 <title>Makartt Email</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS13S8H0FC"/>
             </Head>
             <Navbar5/>
             <Breadcrumbs pageTitle={'Makartt Email'} pageSub={'Project Details'}/>

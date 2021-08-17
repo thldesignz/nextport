@@ -7,6 +7,10 @@ const Fenty =() => {
     return(
         
             <div>
+              <Head>
+                <title>Email Promo</title>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS13S8H0FC"/>
+            </Head>
                 <Navbar5 />
             <style dangerouslySetInnerHTML={{__html: "\n      @media only screen and (min-width:960px){\n          .container{\n              width: 600px;\n          }\n      }\n            /* MIDSIZES */\n      @media only screen and (max-width:960px){\n            .container{\n                width: 600px;\n            }\n      }\n            /* MOBILE */\n      @media only screen and (max-width:600px){\n            .container{\n                width: 100%;\n            }\n            .item{\n                width: 50%;\n            }\n            .item-img{\n                width: 10%;\n                 /* max-width: 250px; */\n                 /* margin-left: auto;\n                margin-right: auto; */\n            }\n      }\n    " }} />
         {/* Start of html email*/}
