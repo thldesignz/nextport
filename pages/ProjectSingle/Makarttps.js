@@ -29,7 +29,7 @@ const ProjectSingle = ( props ) => {
                                 <div className="co-l-lg-4 col-md-4 col-sm-6 col-12">
                                     <div className="wpo-project-details-text">
                                         <span>Project URL</span>
-                                        <h2><a target="_blank" href="/Makartt">Click Here</a></h2>
+                                        <h2><a target="_blank" href="https://hungry-euclid-5efafb.netlify.app/">Click Here</a></h2>
                                     </div>
                                 </div>
                             </div>
