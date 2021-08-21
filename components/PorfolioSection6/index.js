@@ -240,9 +240,9 @@ class Portfolio extends Component {
                                     </div>
                                 </div> */}
                             </div>
-                            <div className="protfolio-btn">
-                                <Link href="/ProjectDetails"><a className="theme-btn-s2">Load More</a></Link>
-                            </div>
+                            {/* <div className="protfolio-btn">
+                                <Link href="/"><a className="theme-btn-s2">Load More</a></Link>
+                            </div> */}
                         </div>
                     </div>
                 </div>
