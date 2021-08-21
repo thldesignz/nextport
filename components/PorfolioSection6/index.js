@@ -7,7 +7,7 @@ class Portfolio extends Component {
 
     state = {
         onWebDesign: false,
-        onPrintDesign: false,
+        onShopify: false,
         onWebApp: false,
         onEmail: false,
         isOpen : false,
@@ -19,7 +19,7 @@ class Portfolio extends Component {
             event.preventDefault();
             this.setState({
                 onWebApp: true,
-                onPrintDesign: true,
+                onShopify: true,
                 onWebDesign: true,
                 onEmail: true,
             });
@@ -29,17 +29,17 @@ class Portfolio extends Component {
             event.preventDefault();
             this.setState({
                 onWebDesign: true,
-                onPrintDesign: false,
+                onShopify: false,
                 onWebApp: false,
                 onEmail: false,
                 isOpen: true,
             });
         }
 
-        const printDesign = event => {
+        const Shopify = event => {
             event.preventDefault();
             this.setState({
-                onPrintDesign: true,
+                onShopify: true,
                 onWebDesign: false,
                 onWebApp: false,
                 onEmail: false,
@@ -51,7 +51,7 @@ class Portfolio extends Component {
             event.preventDefault();
             this.setState({
                 onWebApp: true,
-                onPrintDesign: false,
+                onShopify: false,
                 onWebDesign: false,
                 onEmail: false,
                 isOpen: true,
@@ -63,7 +63,7 @@ class Portfolio extends Component {
             this.setState({
                 onEmail: true,
                 onWebApp: false,
-                onPrintDesign: false,
+                onShopify: false,
                 onWebDesign: false,
                 isOpen: true,
             });
@@ -80,7 +80,7 @@ class Portfolio extends Component {
                                 <ul>
                                     <li><button data-filter="*" className="current" onClick={allElement}>All</button></li>
                                     <li><button data-filter=".Web-Design" onClick={webDesign}>Web Design</button></li>
-                                    <li><button data-filter=".Print-Design" onClick={printDesign}>Print Design</button></li>
+                                    <li><button data-filter=".Shopify" onClick={Shopify}>Shopify</button></li>
                                     <li><button data-filter=".Web-Application" onClick={webApp}>Web Application</button></li>               
                                     <li><button data-filter=".Email" onClick={Email}>Email</button></li> 
                                 </ul>
@@ -89,7 +89,7 @@ class Portfolio extends Component {
                                
                                
                                 <div className={this.state.onWebDesign ? "grid active" : "grid" 
-                                    && this.state.onPrintDesign ? "grid " : "grid"
+                                    && this.state.onShopify ? "grid " : "grid"
                                     && this.state.onWebApp ? "grid " : "grid"
                                     && this.state.onEmail ? "grid " : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
@@ -105,7 +105,22 @@ class Portfolio extends Component {
                                         </div>
                                     </div>  
                                 </div>
-                               
+
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                    && this.state.onShopify ? "grid active " : "grid"
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                    <div className="wpo-protfolio-single">
+                                        <div className="wpo-protfolio-img">
+                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-21-at-12.52.49-PM.png' alt="" className="img img-responsive"/>
+                                        </div>
+                                        <div className="wpo-protfolio-text">
+                                            <h2>Shopify Theme</h2>
+                                            <span>Shopify . Web Development</span>
+                                            <Link href="/ProjectDetails/ShopifyTheme1"><a>View Work</a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div className={this.state.onEmail ? "grid active" : "grid" 
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
@@ -134,22 +149,68 @@ class Portfolio extends Component {
                                             <Link href="/ProjectDetails/Makartt"><a>View Work</a></Link>
                                         </div>
                                     </div>
+                                </div> 
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                    && this.state.onShopify ? "grid active " : "grid"
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                    <div className="wpo-protfolio-single">
+                                        <div className="wpo-protfolio-img">
+                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-22-at-12.59.45-AM.png' alt="" className="img img-responsive"/>
+                                        </div>
+                                        <div className="wpo-protfolio-text">
+                                            <h2>Shopify Theme</h2>
+                                            <span>Shopify . Web Development</span>
+                                            <Link href="/ProjectDetails/ShopifyTheme3"><a>View Work</a></Link>
+                                        </div>
+                                    </div>
                                 </div>
-                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
+
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='images/protfolio/img-8.jpg' alt="" className="img img-responsive"/>
+                                            <img src='images/img/spec_main.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link href="/ProjectDetails"><a>View Work</a></Link>
+                                            <h2> Email</h2>
+                                            <span>Email . Web Developer</span>
+                                            <Link href="/ProjectDetails/Spec"><a>View Work</a></Link>
                                         </div>
                                     </div>
-                                </div> */}
-                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
+                                </div> 
+
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                    && this.state.onShopify ? "grid active " : "grid"
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                    <div className="wpo-protfolio-single">
+                                        <div className="wpo-protfolio-img">
+                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-22-at-12.37.39-AM.png' alt="" className="img img-responsive"/>
+                                        </div>
+                                        <div className="wpo-protfolio-text">
+                                            <h2>Shopify Theme</h2>
+                                            <span>Shopify . Web Development</span>
+                                            <Link href="/ProjectDetails/ShopifyTheme2"><a>View Work</a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className={this.state.onWebApp ? "grid active" : "grid"
+                                    && this.state.onWebDesign ? "grid active " : "grid"
+                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                    <div className="wpo-protfolio-single">
+                                        <div className="wpo-protfolio-img">
+                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/05/Screenshot-2021-05-07-at-18-05-39-Jamies-Learn-How-To-Code-Get-a-Job-Passive-Income.png' alt="" className="img img-responsive"/>
+                                        </div>
+                                        <div className="wpo-protfolio-text">
+                                            <h2>Web App</h2>
+                                            <span>Web App . Web Development</span>
+                                            <Link href="/ProjectDetails/Jamies"><a>View Work</a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                {/* <div className={this.state.onShopify ? "grid active" : "grid"
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
@@ -163,7 +224,7 @@ class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div> */}
-                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
+                                {/* <div className={this.state.onShopify ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.onEmail ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>

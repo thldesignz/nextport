@@ -47,12 +47,12 @@ const PorfolioSectionHome = ( props ) => {
                                     <div className="">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-22-at-12.37.39-AM.png' alt=""/>
+                                                <img src='images/img/spec_main.png' alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>Shopify Theme</h2>
-                                                <span>Shopify . Web Development</span>
-                                                <Link href="/ProjectDetails/ShopifyTheme2">View Work</Link>
+                                                <h2>Email</h2>
+                                                <span>Email . Web Development</span>
+                                                <Link href="/ProjectDetails/Spec">View Work</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ const PorfolioSectionHome = ( props ) => {
                                 </div>
                             </div>
                             <div className="protfolio-btn">
-                                <Link href="/PorfolioGrid"><a>See More Work</a></Link>
+                                <Link href="/PorfolioGrid"><a>See More Work</a></Link> 
                             </div>
                         </div>
                     </div>
