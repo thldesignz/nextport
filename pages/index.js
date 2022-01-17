@@ -15,7 +15,7 @@ import { useEffect } from 'react';
 
 const HomePage =() => {
 
-
+ 
      
                 React.useEffect(() => {
                     window.dataLayer = window.dataLayer || [];

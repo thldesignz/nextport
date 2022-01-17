@@ -36,7 +36,7 @@ const Header = (props) => {
             <MobileMenu/>
         </div>
     </div>
-    )
+    ) 
 }
 
 export default Header;

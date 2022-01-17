@@ -5,7 +5,7 @@ const Exprience = () => {
         <div className="wpo-exprience-area">
             <div className="exprience-wrap">
                 <div className="exprience-b">
-                    <h2>3</h2>
+                    <h2>5</h2>
                     <div className="exprience-s">
                         <span>Years</span>
                         <span>Experience</span>
