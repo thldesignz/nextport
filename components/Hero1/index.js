@@ -9,7 +9,7 @@ const Hero1 = () => {
                     <div className="row">
                         <div className="col col-md-8 slide-caption">
                             <h2>I’m <span>Jae</span> Slaughter</h2>
-                            <p>Freelance Web Developer</p>
+                            <p>Web Developer</p>
                             <p>& Graphic Designer</p>
                             <div className="bg-social">
                                 <ul>

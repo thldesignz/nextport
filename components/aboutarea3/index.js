@@ -16,7 +16,8 @@ const AboutArea3 = (props) => {
                     <div className="col-lg-6 col-md-6">
                         <div className="wpo-about-text">
                             <h2>Creativity is nothing but a mind set free</h2>
-                            <p>My name is Jae. I am a web designer and developer. Design is my passion I love any and everything that has to do with design. I love to bring peoples ideas to life and create a beautiful experience. I,m from Ohio I have an Aassociate's Degree in Graphic Design, with a specialization in Multimedia and web.  </p>
+                            <p> I'm a Front-End Developer located in Ohio. I have a passion for creating and love to bring people's vision to life. I'm always learning and gaining more skills. I'm working on becoming a better developer and learning new skills. Recently I created my first app using ionic and react.  </p>
+                            <p> My interest in web development started with myspace where I started to break down and figure out how to customize the layout to the way I wanted. That was the start of me getting into graphic design and web development.  </p>
                             <ul>
                                 {/* <li>High Quality Service</li>
                                 <li>Best Price in Marketplace.</li>

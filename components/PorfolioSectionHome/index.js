@@ -19,7 +19,7 @@ const PorfolioSectionHome = ( props ) => {
                                     <div className="">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src='https://flawlessjae.net/wp-content/uploads/2021/05/Screenshot-2021-05-07-at-18-05-39-Jamies-Learn-How-To-Code-Get-a-Job-Passive-Income.png' alt=""/>
+                                                <img src='images/project/jamies.png' alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>Jamies Famous Burger</h2>

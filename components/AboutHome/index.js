@@ -16,11 +16,12 @@ const AboutHome = (props) => {
                     <div className="col-lg-6 col-md-6">
                         <div className="wpo-about-text">
                             <h2>Creativity is nothing but a mind set free</h2>
-                            <p>My name is Jae. I am a web designer and developer. Design is my passion I love any and everything that has to do with design. I love to bring peoples ideas to life and create a beautiful experience. I,m from Ohio I have an Aassociate's Degree in Graphic Design, with a specialization in Multimedia and web. </p>
+                            <p> I'm a Front-End Developer that specializes in building things. I also have a background in design so I also can design things.   </p>
                             <ul>
                                 <li>Shopify</li>
                                 <li>Laravel</li>
                                 <li>React</li>
+                                <li>Ionic</li>
                             </ul>
                             <Link href="/AboutPage"><a className="theme-btn-s2">More About</a></Link>
                         </div>

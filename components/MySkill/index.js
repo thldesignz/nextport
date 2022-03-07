@@ -59,17 +59,17 @@ const MySkill = (props) => {
             </div> */}
             <div className="row">
                 <div className="col-sm-12 icons">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i>
-                <i class="fab fa-php"></i>
-                <i class="fab fa-cpanel"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-laravel"></i>
-                <i class="fab fa-npm"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-sass"></i>
-                <i class="fab fa-shopify"></i>
+                <i className="fab fa-html5"></i>
+                <i className="fab fa-css3-alt"></i>
+                <i className="fab fa-js"></i>
+                <i className="fab fa-php"></i>
+                <i className="fab fa-cpanel"></i>
+                <i className="fab fa-github"></i>
+                <i className="fab fa-laravel"></i>
+                <i className="fab fa-npm"></i>
+                <i className="fab fa-react"></i>
+                <i className="fab fa-sass"></i>
+                <i className="fab fa-shopify"></i>
                 </div>
             </div>
         </div>

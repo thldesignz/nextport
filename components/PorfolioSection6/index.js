@@ -96,7 +96,7 @@ class Portfolio extends Component {
 
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/08/Screen-Shot-2021-08-05-at-12.12.07-PM.png' alt="" className="img img-responsive"/>
+                                            <img src='/images/project/realEstate.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Landing Page</h2>
@@ -200,12 +200,12 @@ class Portfolio extends Component {
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/05/Screenshot-2021-05-07-at-18-05-39-Jamies-Learn-How-To-Code-Get-a-Job-Passive-Income.png' alt="" className="img img-responsive"/>
+                                            <img src='/images/project/jamies.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Web App</h2>
                                             <span>Web App . Web Development</span>
-                                            <Link href="/ProjectDetails/Jamies"><a>View Work</a></Link>
+                                            <Link href="/ProjectDetails/Jamies.png"><a>View Work</a></Link>
                                         </div>
                                     </div>
                                 </div>

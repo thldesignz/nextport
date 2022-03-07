@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react' 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 
 
 class ContactForm extends Component {
+    
 
 
     state = {
@@ -69,7 +74,15 @@ class ContactForm extends Component {
                 notes: '',
                 error: {}
             })
+            
         }
+        console.log(this.state)
+        emailjs.sendForm('service_cs736iq', 'template_j4ukf3f', form.current, 'YOUR_USER_ID')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
     }
 
     render(){
@@ -80,7 +93,7 @@ class ContactForm extends Component {
             error } = this.state;
 
         return(
-            <form onSubmit={this.subimtHandler} className="form">
+            <form onSubmit={this.subimtHandler}   className="form">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
                         <div className="form-field">
