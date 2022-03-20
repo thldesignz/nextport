@@ -33,7 +33,7 @@ const PorfolioSectionHome = ( props ) => {
                                     <div className="">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-21-at-12.52.49-PM.png' alt=""/>
+                                                <img src='images/shopify1.png' alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>Theme For Hair STore</h2>
@@ -61,7 +61,7 @@ const PorfolioSectionHome = ( props ) => {
                                     <div className="">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-22-at-12.59.45-AM.png' alt=""/>
+                                                <img src='images/shopify2.png' alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>Shopify Theme</h2>

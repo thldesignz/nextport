@@ -9,7 +9,7 @@ const ProjectSingle = ( props ) => {
                     <div className="col-lg-8 offset-lg-2">
                         <div className="wpo-minimal-wrap">
                             <div className="wpo-minimal-img">
-                                <img src='https://flawlessjae.net/wp-content/uploads/2021/05/Screenshot-2021-05-07-at-18-05-39-Jamies-Learn-How-To-Code-Get-a-Job-Passive-Income.png' alt=""/>
+                                <img src='/images/jamies.png' alt=""/>
                             </div>
                         </div>
                         <div className="wpo-project-details-list">

@@ -155,7 +155,7 @@ class Portfolio extends Component {
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-22-at-12.59.45-AM.png' alt="" className="img img-responsive"/>
+                                            <img src='images/shopify2.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Shopify Theme</h2>
@@ -180,7 +180,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div> 
 
-                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                {/* <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onShopify ? "grid active " : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
@@ -193,7 +193,7 @@ class Portfolio extends Component {
                                             <Link href="/ProjectDetails/ShopifyTheme2"><a>View Work</a></Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className={this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.onWebDesign ? "grid active " : "grid"
