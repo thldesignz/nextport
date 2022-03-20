@@ -111,7 +111,7 @@ class Portfolio extends Component {
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-21-at-12.52.49-PM.png' alt="" className="img img-responsive"/>
+                                            <img src='images/shopify1.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Shopify Theme</h2>
