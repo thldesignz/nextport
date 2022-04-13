@@ -6,6 +6,17 @@ import ProjectSingle from '../ProjectSingle/Fentyps'
 import Head from 'next/head'
 
 const ProjectDetails =() => {
+    
+    React.useEffect(() => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MS13S8H0FC');
+
+        gtag();
+    })
+
     return(
         <Fragment>
             <Head>

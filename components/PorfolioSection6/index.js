@@ -180,20 +180,20 @@ class Portfolio extends Component {
                                     </div>
                                 </div> 
 
-                                {/* <div className={this.state.onWebDesign ? "grid active" : "grid"
-                                    && this.state.onShopify ? "grid active " : "grid"
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
+                                    && this.state.onWebApp ? "grid active " : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
-                                    <div className="wpo-protfolio-single">
+                                <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src='https://flawlessjae.net/wp-content/uploads/2021/06/Screen-Shot-2021-06-22-at-12.37.39-AM.png' alt="" className="img img-responsive"/>
+                                            <img src='/images/lawn.png' alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Shopify Theme</h2>
-                                            <span>Shopify . Web Development</span>
-                                            <Link href="/ProjectDetails/ShopifyTheme2"><a>View Work</a></Link>
+                                            <h2>Landing Page</h2>
+                                            <span>Web Design . Web Development</span>
+                                            <Link href="/ProjectDetails/lawnCare"><a>View Work</a></Link>
                                         </div>
-                                    </div>
-                                </div> */}
+                                    </div>  
+                                </div>
 
                                 <div className={this.state.onWebApp ? "grid active" : "grid"
                                     && this.state.onWebDesign ? "grid active " : "grid"
