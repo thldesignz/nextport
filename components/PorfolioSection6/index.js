@@ -205,7 +205,7 @@ class Portfolio extends Component {
                                         <div className="wpo-protfolio-text">
                                             <h2>Web App</h2>
                                             <span>Web App . Web Development</span>
-                                            <Link href="/ProjectDetails/Jamies.png"><a>View Work</a></Link>
+                                            <Link href="/ProjectDetails/Jamies"><a>View Work</a></Link>
                                         </div>
                                     </div>
                                 </div>
