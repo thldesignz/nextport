@@ -36,6 +36,7 @@ const ProjectSingle = ( props ) => {
                         </div>
                         <div className="wpo-p-details-section">
                             <h3> To check out back end click here <a href=""> click Here </a> <strong>email: jade@gmail.com</strong> <strong>Password: 12345678</strong></h3>
+                            for the admin <a target='_blank' href='http://jamies-restaurant.herokuapp.com/login'>click here</a>
                             <p>This is an full stack applicationbuilt using Laravel and react. Its for a resteraunt that i made up. on the back end you can add employees in the system as well as add mor food categories and items to the restaurant. Admin you can sales as well as other features that regular employees cant see. </p> 
                             <div className="row">
                                 <div className="col-md-12 col-sm-12col-12">
