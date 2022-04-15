@@ -60,5 +60,3 @@ const ProjectSingle = ( props ) => {
 
 export default ProjectSingle;
 
-<img src="" alt="cupcakes" border="0">
-<img src="" alt="salad" border="0">
